@@ -8,8 +8,8 @@ Configuration files for a boilerplate reverse proxy that runs:
 ## Setup
 
 1. Clone this repository
-2. [Configure the backend servers](#backend-servers) (you must at least configure the default backend)
-3. [Configure the SSL certificates](#frontend-ssl-certificates) (provide at least one domain name)
+2. [Configure the backend servers](#backend-configuration) (you must at least configure the default backend)
+3. [Configure the SSL certificates](#ssl-certificates-configuration) (provide at least one domain name)
 4. Start the service with `docker compose up -d`. This runs the following steps:
    - generate temporary self-signed SSL certificates,
    - start HAProxy,
